@@ -18,9 +18,10 @@ INSERT INTO celebrities (first_name, last_name, occupation, date_of_birth)
 -- For Frank Sinatra set true as the value for the deceased column. For Tom Cruise,
 -- don't set an explicit value for the deceased column, but use the default value.
 
--- | First Name | Last Name |   Occupation   |       D.O.B.       |
--- | Frank      | Sinatra   | Singer, Actor  | December 12, 1915  |
--- | Tom        | Cruise    | Actor          | July 03, 1962      |
+--  First Name | Last Name |   Occupation   |       D.O.B.       
+-- ------------+-----------+----------------+-------------------
+--  Frank      | Sinatra   | Singer, Actor  | December 12, 1915  
+--  Tom        | Cruise    | Actor          | July 03, 1962      
 
 -- Solution:
 
@@ -30,9 +31,10 @@ INSERT INTO celebrities (first_name, last_name, occupation, date_of_birth, decea
 
 -- 4. Look at the schema of the celebrities table. What do you think will happen if we try to insert the following data?
 
--- | First Name | Last Name |               Occupation            |     D.O.B.    | Deceased |
--- | Madonna    |           | Singer, Actress                     | '16/08/1958'  | False    |
--- | Prince     |           | Singer, Songwriter, Musician, Actor | '06/07/1958'	| True     |
+--  First Name | Last Name |               Occupation            |     D.O.B.    | Deceased
+-- ------------+-----------+-------------------------------------+---------------+----------
+--  Madonna    |           | Singer, Actress                     | '16/08/1958'  | False    
+--  Prince     |           | Singer, Songwriter, Musician, Actor | '06/07/1958'	 | True     
 
 -- Solution:
 
@@ -58,8 +60,9 @@ INSERT INTO celebrities (first_name, occupation, date_of_birth, deceased)
 -- 6. Check the schema of the celebrities table. What would happen if we specify a NULL value for deceased column,
 -- such as with the data below?
 
--- | First Name | Last Name |        Occupation        |     D.O.B.    | Deceased |
--- | Elvis      | Presley   | Singer, Musician, Actor  | '01/08/1935'	 | NULL     |
+--  First Name | Last Name |        Occupation        |     D.O.B.    | Deceased 
+-- ------------+-----------+--------------------------+---------------+----------
+--  Elvis      | Presley   | Singer, Musician, Actor  | '01/08/1935'	| NULL     
 
 -- Solution:
 

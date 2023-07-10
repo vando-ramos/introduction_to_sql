@@ -11,18 +11,19 @@
 
 -- The item costs and loyalty points are listed below:
 
--- |           Item          | Cost ($) | Loyalty Points |
--- | LS Burger               | 3.00     | 10             |
--- | LS Cheeseburger         | 3.50     | 15             |
--- | LS Chicken Burger       | 4.50     | 20             |
--- | LS Double Deluxe Burger | 6.00     | 30             |
--- | Fries                   | 0.99     | 3              |
--- | Onion Rings             | 1.50     | 5              |
--- | Cola                    | 1.50     | 5              |
--- | Lemonade                | 1.50     | 5              |
--- | Vanilla Shake           |	2.00    | 7              |
--- | Chocolate Shake         |	2.00    | 7              |
--- | Strawberry Shake        |	2.00    | 7              |
+--            Item          | Cost ($) | Loyalty Points 
+-- -------------------------+----------+----------------
+--  LS Burger               | 3.00     | 10             
+--  LS Cheeseburger         | 3.50     | 15             
+--  LS Chicken Burger       | 4.50     | 20             
+--  LS Double Deluxe Burger | 6.00     | 30             
+--  Fries                   | 0.99     | 3              
+--  Onion Rings             | 1.50     | 5              
+--  Cola                    | 1.50     | 5              
+--  Lemonade                | 1.50     | 5              
+--  Vanilla Shake           |	2.00     | 7              
+--  Chocolate Shake         |	2.00     | 7              
+--  Strawberry Shake        |	2.00     | 7              
 
 -- Solution:
 
