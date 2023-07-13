@@ -2,7 +2,7 @@
 -- 6. To associate customers with products, we need to do two more things:
 
 -- 1. Alter or replace the orders table so that we can associate a customer with one or more orders
--- (we also want to record an order status in this table).
+--    (we also want to record an order status in this table).
 
 -- 2.Create an order_items table so that an order can have one or more products associated with it.
 

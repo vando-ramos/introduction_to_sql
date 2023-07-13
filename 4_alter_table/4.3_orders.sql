@@ -13,8 +13,8 @@ ALTER TABLE orders
   ADD COLUMN customer_loyalty_points integer DEFAULT 0;
 
 -- 2. Add three columns to the orders table called burger_cost, side_cost,
--- and drink_cost to hold monetary values in dollars and cents (assume that all values will be less than $100).
--- If no value is entered for these columns, a value of 0 dollars should be used.
+--    and drink_cost to hold monetary values in dollars and cents (assume that all values will be less than $100).
+--    If no value is entered for these columns, a value of 0 dollars should be used.
 
 -- Solution:
 

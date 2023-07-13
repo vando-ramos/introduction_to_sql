@@ -107,7 +107,7 @@ WHERE occupation LIKE '%Actor%' OR occupation LIKE '%Actress%'
 AND occupation LIKE '%Singer%';
 
 -- 13. Connect to the ls_burger database. Write a query that lists all of the burgers that have been ordered,
--- from cheapest to most expensive, where the cost of the burger is less than $5.00.
+--     from cheapest to most expensive, where the cost of the burger is less than $5.00.
 
 -- Solution:
 
@@ -119,7 +119,7 @@ WHERE burger_cost < 5.00
 ORDER BY burger_cost;
 
 -- 14. Write a query to return the customer name and email address and loyalty points from any order worth 20 or more loyalty points.
--- List the results from the highest number of points to the lowest.
+--     List the results from the highest number of points to the lowest.
 
 -- Solution:
 

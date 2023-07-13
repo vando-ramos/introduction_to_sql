@@ -1,5 +1,5 @@
 -- 4. Connect to the ls_burger database. If you run a simple SELECT query to retrieve all the data from the orders table,
--- you will see it is very unnormalised. We have repetition of item names and costs and of customer data.
+--    you will see it is very unnormalised. We have repetition of item names and costs and of customer data.
 
 SELECT * FROM orders;
 

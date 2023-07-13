@@ -1,6 +1,6 @@
 -- 1. Make sure you are connected to the encyclopedia database. 
--- Add a column to the animals table called class to hold strings of up to 100 characters.
--- Update all the rows in the table so that this column holds the value Aves.
+--    Add a column to the animals table called class to hold strings of up to 100 characters.
+--    Update all the rows in the table so that this column holds the value Aves.
 
 -- Solution:
 
@@ -12,7 +12,7 @@ ADD COLUMN class varchar(100);
 UPDATE animals SET class = 'Aves';
 
 -- 2. Add two more columns to the animals table called phylum and kingdom. Both should hold strings of up to 100 characters.
--- Update all the rows in the table so that phylum holds the value Chordata and kingdom holds Animalia for all the rows in the table.
+--    Update all the rows in the table so that phylum holds the value Chordata and kingdom holds Animalia for all the rows in the table.
 
 -- Solution:
 
@@ -24,8 +24,8 @@ UPDATE animals
 SET phylum = 'Chordata', SET kingdom = 'Animalia';
 
 -- 3. Add a column to the countries table called continent to hold strings of up to 50 characters.
--- Update all the rows in the table so France and Germany have a value of Europe for this column,
--- Japan has a value of Asia and the USA has a value of North America.
+--    Update all the rows in the table so France and Germany have a value of Europe for this column,
+--    Japan has a value of Asia and the USA has a value of North America.
 
 -- Solution:
 
@@ -45,7 +45,7 @@ SET continent = 'North America'
 WHERE name = 'USA';
 
 -- 4. In the celebrities table, update the Elvis row so that the value in the deceased column is true.
--- Then change the column so that it no longer allows NULL values.
+--    Then change the column so that it no longer allows NULL values.
 
 -- Solution:
 

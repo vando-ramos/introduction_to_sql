@@ -1,5 +1,5 @@
 -- 2. Write statements to add data to the countries and continents tables so that the data below is correctly represented across the two tables.
--- Add both the countries and the continents to their respective tables in alphabetical order.
+--    Add both the countries and the continents to their respective tables in alphabetical order.
 
 --  Name	  | Capital         |	Population  | Continent
 -- ---------+-----------------+-------------+---------------

@@ -6,7 +6,8 @@
 -- A date_of_birth column that should contain each person's date of birth in a string of up to 50 characters
 -- A deceased column that contains either true or false
 
--- The table should prevent NULL values being added to the name column. If the value of the deceased column is absent or unknown then false should be used.
+-- The table should prevent NULL values being added to the name column.
+-- If the value of the deceased column is absent or unknown then false should be used.
 
 -- Solution:
 

@@ -1,6 +1,6 @@
 -- 5. We want to make our ordering system more flexible, so that customers can order any combination of burgers, sides and drinks.
--- The first step towards doing this is to put all our product data into a separate table called products.
--- Create a table and populate it with the following data:
+--    The first step towards doing this is to put all our product data into a separate table called products.
+--    Create a table and populate it with the following data:
 
 --        product_name       | product_cost | product_type | product_loyalty_points
 --  -------------------------+--------------+--------------+------------------------

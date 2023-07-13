@@ -3,7 +3,7 @@
 -- We want to hold the continent data in a separate table from the country data.
 
 -- 1. Create a continents table with an auto-incrementing id column (set as the Primary Key),
--- and a continent_name column which can hold the same data as the continent column from the countries table.
+--    and a continent_name column which can hold the same data as the continent column from the countries table.
 
 -- 2. Remove the continent column from the countries table.
 

@@ -26,7 +26,7 @@ ALTER TABLE celebrities
   ADD COLUMN last_name varchar(100) NOT NULL;
 
 -- 4. Change the celebrities table so that the date_of_birth column uses a data type that holds an actual date value rather than a string.
--- Also ensure that this column must hold a value.
+--    Also ensure that this column must hold a value.
 
 -- Solution:
 

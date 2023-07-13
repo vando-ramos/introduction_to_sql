@@ -1,5 +1,5 @@
 -- 1. Make sure you are connected to the encyclopedia database.
--- Write a query to retrieve the first row of data from the countries table.
+--    Write a query to retrieve the first row of data from the countries table.
 
 -- Solution:
 
